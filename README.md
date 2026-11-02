@@ -87,12 +87,7 @@ An interactive personal portfolio page built with HTML, CSS and **jQuery 3.7.1**
 1. Started with the HTML structure: one `section` per task, so every part could be tested separately.
 2. Wrote the base CSS (cards, buttons, bars) and set the skill bars and collapsible panels to be hidden or zero-width by default.
 3. Added the jQuery code task by task, checking each one in the browser and the console before moving on.
-4. Fixed several issues found during testing:
-   - bar labels now take their text from `data-level`, so they always match the animation;
-   - new skills added after the animation get the correct bar width;
-   - the selected theme is applied to newly created skill bars;
-   - the link button in Task 6 works as a toggle in both directions.
-5. Uploaded the project to GitHub, enabled GitHub Pages and added screenshots for all tasks.
+4. Uploaded the project to GitHub, enabled GitHub Pages and added screenshots for all tasks.
 
 ## Technologies
 HTML5, CSS3, JavaScript, jQuery 3.7.1
