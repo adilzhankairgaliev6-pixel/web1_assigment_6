@@ -5,12 +5,12 @@
 - **Group:** SE-2540
 ---
 
-## 📋 Project Overview
+## Project Overview
 An interactive personal portfolio page built with HTML, CSS and **jQuery 3.7.1**. The project demonstrates jQuery selectors, effects, DOM manipulation and animations.
 
 ---
 
-## 🛠️ Tasks & Implementation
+## Tasks & Implementation
 
 ### Part 1. Getting Started with jQuery
 
@@ -84,7 +84,7 @@ An interactive personal portfolio page built with HTML, CSS and **jQuery 3.7.1**
 
 ---
 
-## 📝 Summary of Work Process
+## Summary of Work Process
 1. Started with the HTML structure: one `section` per task, so every part could be tested separately.
 2. Wrote the base CSS (cards, buttons, bars) and set the skill bars and collapsible panels to be hidden or zero-width by default.
 3. Added the jQuery code task by task, checking each one in the browser and the console before moving on.
@@ -95,5 +95,5 @@ An interactive personal portfolio page built with HTML, CSS and **jQuery 3.7.1**
    - the link button in Task 6 works as a toggle in both directions.
 5. Uploaded the project to GitHub, enabled GitHub Pages and added screenshots for all tasks.
 
-## 🧰 Technologies
+## Technologies
 HTML5, CSS3, JavaScript, jQuery 3.7.1
