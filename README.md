@@ -18,7 +18,6 @@ An interactive personal portfolio page built with HTML, CSS and **jQuery 3.7.1**
 
 <img width="420" height="117" alt="image" src="https://github.com/user-attachments/assets/f8fe7dd2-edc0-4e27-b6e1-65286316bdbe" />
 
-![Task 0](screenshots/task0.png)
 
 - **Task 1. Selectors & CSS:** Created a profile section with the title "Welcome to My Portfolio", my name, a headline and a short introduction. Used tag (`h1`), ID (`#name`) and class (`.headline`) selectors, updated the greeting and headline with `.text()` and `.html()`, changed styles with `.css()`, and added buttons to switch between light and dark themes.
 
