@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My jQuery Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="profile" class="card">
+    <h1 id="welcome-title">Welcome to My Portfolio</h1>
+    <h2 id="name">Adilzhan Kairgaliyev</h2>
+    <p id="headline" class="headline">I am the creator of this page</p>
+    <p class="intro">I am a student at Astana IT University, in group SE-2540. I enjoy creating neat and interactive web pages.</p>
+    <div class="btn-row">
+      <button id="btn-greeting">Change Greeting</button>
+      <button id="btn-light">☼</button>
+      <button id="btn-dark">☾</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p class="bio">I am a second-year student studying web development and design, and I am working toward becoming a software engineer.</p>
+      <p id="status" class="status">Currently learning jQuery!</p>
+      <ul id="fun-facts">
+        <li>In my free time, I go to the gym.</li>
+        <li>I like strategy games.</li>
+        <li>I am from the European part of Kazakhstan.</li>
+      </ul>
+      <div class="btn-row">
+        <button id="btn-hide">Hide</button>
+        <button id="btn-show">Show</button>
+        <button id="btn-toggle">Toggle</button>
+      </div>
+    </section>
+
+    <section id="gallery" class="card">
+      <h2>Gallery</h2>
+      <div class="gallery-row">
+        <img class="gallery-img" src="images/photo1.jpg" alt="Photo 1">
+        <img class="gallery-img" src="images/photo2.jpg" alt="Photo 2">
+        <img class="gallery-img" src="images/photo3.jpg" alt="Photo 3">
+      </div>
+      <div class="btn-row">
+        <button id="btn-fadein">Fade In</button>
+        <button id="btn-fadeout">Fade Out</button>
+        <button id="btn-fadetoggle">Fade Toggle</button>
+      </div>
+    </section>
+
+    <section id="favorites" class="card">
+      <h2>My Favorites</h2>
+      <div class="accordion-item">
+        <h3 class="slide-heading">My Favorite Music</h3>
+        <div class="panel"><p>Just Can't Get Enough</p></div>
+      </div>
+      <div class="accordion-item">
+        <h3 class="slide-heading">My Favorite Movie</h3>
+        <div class="panel"><p>"The Gentlemen" (2019)</p></div>
+      </div>
+      <div class="accordion-item">
+        <h3 class="slide-heading">My Favorite fruit</h3>
+        <div class="panel"><p>Pomegranate</p></div>
+      </div>
+      <div class="btn-row">
+        <button id="btn-slideup">Slide Up All</button>
+        <button id="btn-slidedown">Slide Down All</button>
+        <button id="btn-slidetoggle">Slide Toggle All</button>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Technical Skills</h2>
+      <ul id="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+      </ul>
+      <input type="text" id="skill-input" placeholder="Enter a new skill">
+      <p id="skill-error" class="error"></p>
+      <div class="btn-row">
+        <button id="btn-add-skill">Add Skill</button>
+        <button id="btn-prepend-skill">Prepend Skill</button>
+        <button id="btn-remove-skill">Remove Skill</button>
+      </div>
+
+      <h3>Skill Levels</h3>
+      <div id="skill-bars">
+        <div class="bar-row"><span class="bar-label">HTML</span><div class="bar-track"><div class="bar-fill" data-level="90">85%</div></div></div>
+        <div class="bar-row"><span class="bar-label">CSS</span><div class="bar-track"><div class="bar-fill" data-level="80">75%</div></div></div>
+        <div class="bar-row"><span class="bar-label">JavaScript</span><div class="bar-track"><div class="bar-fill" data-level="65">65%</div></div></div>
+        <div class="bar-row"><span class="bar-label">jQuery</span><div class="bar-track"><div class="bar-fill" data-level="50">50%</div></div></div>
+      </div>
+      <div class="btn-row">
+        <button id="btn-animate-skills">Animate My Skills</button>
+      </div>
+    </section>
+
+    <section id="links" class="card">
+      <h2>My Links</h2>
+      <p><a id="social-link" href="https://github.com/adilzhankairgaliev6-pixel" target="_blank">My GitHub</a></p>
+      <p>Current destination: <code id="link-url">https://github.com/</code></p>
+      <div class="btn-row">
+        <button id="btn-change-link">Change Link to Instagram</button>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact Form</h2>
+      <form id="contact-form" onsubmit="return false;">
+        <label for="name-input">Name</label>
+        <input type="text" id="name-input" placeholder="Your name">
+        <label for="email-input">Email</label>
+        <input type="email" id="email-input" placeholder="you@example.com">
+      </form>
+      <p>Live name: <strong id="live-name"></strong></p>
+      <p>Live email: <strong id="live-email"></strong></p>
+    </section>
+  </main>
+
+  <footer class="card"><p>&copy; 2026 Adilzhan Kairgaliyev. Built with jQuery.</p></footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
